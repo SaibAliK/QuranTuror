@@ -1,0 +1,462 @@
+/*------------------------------------------------------------------
+                    [CUSTOM SITE STYLING LIBRARY]
+-------------------------------------------------------------------*/
+
+
+
+.preloader-img{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+  }
+.body{
+    height: 100%;
+    background-color: #F5F5F5;
+}
+.text-blue{
+    color:#001B61!important;
+}
+
+
+@media (min-width: 767px) {
+    #navbarTutor {
+
+    }
+}
+/*@media (min-width: 767px) {
+    #navTutor{
+        display: none;
+    }
+}*/
+
+.sidebar
+{
+
+    width: 25%;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    top: 65px;
+    background-color:  white;
+    z-index: 1;
+
+}
+.navbar-collapse.show{
+    /*transition: all .3s ease;*/
+    z-index: 1029;
+
+}
+.main-header{
+    position: fixed;
+    width: 100%;
+}
+/*.sidebar .menu-section {
+    height: 90%;
+}*/
+.sidebar .menu-section ul {
+    padding: 0px;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.menu-section .nav-item .nav-link{
+    color: black;
+    font-weight: 500;
+}
+.menu-section .nav-item.active .nav-link{
+    color: white;
+
+}
+.menu-section .nav-item.active{
+    background-color: #F16001!important;
+    color: white!important;
+    animation: slide-down 1s ease-out;
+    box-shadow: 0 10px 25px 0 rgba(50,50,93,.07), 0 5px 15px 0 rgba(0,0,0,.07);}
+@keyframes slide-down {
+    /*0% { opacity: 0; transform: translateY(100%); }*/
+    /*100% { opacity: 1; transform: translateY(0); }*/
+}
+
+.menu-section .nav-link:hover{
+    color: white;
+    background-color: #F16001!important;
+}
+.full-height{
+
+    background-color: #F5F5F5!important;
+}
+
+
+.height-screen{
+
+
+    top: 65px;
+    overflow-y: auto;
+    /*background-color: #f5f5f5!important;*/
+}
+
+@media (max-width: 766px) {
+    .sidebar{
+        width: 300px;
+        background-color: white;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #001E92;
+    border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #D3D3D3;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #F16001;
+}
+
+.card-shadow{
+    box-shadow: 0 10px 25px 0 rgba(50,50,93,.07), 0 5px 15px 0 rgba(0,0,0,.07);}
+
+.profile-card{
+    margin-top:20px;
+    box-shadow: 0 10px 25px 0 rgba(50,50,93,.07), 0 5px 15px 0 rgba(0,0,0,.07);}
+.profile-card .card-header{
+    width: 91%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    background-color:   #001E92;
+
+}
+
+.profile-card .card-header h3{
+    border-radius:2px;
+    color: #F16001!important;
+
+    /*box-shadow: 0 10px 25px 0 rgba(50,50,93,.07), 0 5px 15px 0 rgba(0,0,0,.07);*/
+}
+
+.sec-padding{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.profile-image{
+    width: 100%;
+    height: 200px;
+}
+
+.shadow{
+    box-shadow: 0 10px 25px 0 rgba(50,50,93,.07),
+    0 5px 15px 0 rgba(0,0,0,.07);}
+
+.waves-effect a.nav-link.active{
+    background-color: #F16001 !important;
+    color: white;
+    box-shadow: 0 10px 25px 0 rgba(50,50,93,.07), 0 5px 15px 0 rgba(0,0,0,.07);
+    border-radius: 0px!important;
+    border-bottom: #F16001 !important;
+}
+
+.waves-effect a.nav-link{
+    background-color: white !important;
+    color: black;
+    /*box-shadow: 0 10px 25px 0 rgba(50,50,93,.07), 0 5px 15px 0 rgba(0,0,0,.07);*/
+    border-radius: 0px!important;
+    border-bottom: white !important;
+}
+
+.waves-effect a.nav-link:hover{
+    color: white;
+    background-color: #F16001!important;
+    border-radius: 0px;
+}
+
+.bg-normal{
+    background-color: #f5f5f5!important;
+}
+.card-img-height{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.padding{
+    padding-top: 8px!important;
+    padding-bottom: 8px!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    font-size: 13px!important;
+}
+
+.coach-detail {
+    padding: 0.5rem 0 0.5rem 0;
+}
+.main-menu{
+    position: relative;
+    top: 0;
+    height: 88vh;
+}
+
+.rating a {
+    color: #FFC125;
+}
+.rounded-circle{
+    padding: 6px 10px!important;
+}
+
+.dataTables_scrollHeadInner{
+    width: 100%!important;
+}
+.fc-event-container{
+    height: 23px;
+}
+.fc-content{
+    margin: 6px;
+}
+.fc-button-active
+{
+    background-color: #F16001!important;
+    border: #F16001!important;
+}
+.fc-prev-button{
+    background-color: #F16001!important;
+    border: #F16001!important;
+}
+.fc-next-button{
+    background-color: #F16001!important;
+    border: #F16001!important;
+}
+#timetable .timetable
+{
+    color: #4e6b7b !important;
+    background-color: #ffffff !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+}
+#timetable p,
+#timetable input
+{
+    margin-bottom:20px !important;
+    color:black !important;
+}
+
+.side-nav
+{
+    margin-top: 60px;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -200px;
+    bottom: 0px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    visibility: hidden;
+    transition: all .3s ease;
+    z-index: 1029;
+}
+
+.side-nav--show {
+    transform: translateX(200px);
+    visibility: visible;
+}
+
+.h-text-black
+{
+    color: #343a40 !important;
+}
+.dashboard .card {
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #efefef;
+    border-radius: .25rem;
+    box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+}
+
+.dashboard .card-img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.dashboard .card .card-body {
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.coach-detail {
+    padding: 0.5rem 1rem 0.5rem 0;
+}
+
+.coach-detail p {
+    font-size: 15px;
+}
+
+.dashboard .card .card-body h3 {
+    font-size: 32px;
+    color: #f16001;
+}
+
+.student-find-tutor .card
+{
+    min-height: 380px !important;
+}
+
+.student-find-tutor .tutor-bio
+{
+    min-height:110px !important;
+}
+
+.student-find-tutor .name-rate
+{
+    /*min-height: 55px !important;*/
+}
+
+.readMoreBtn {
+    cursor: pointer;
+    color: #378EFF !important;
+}
+
+.active-hired
+{
+    color: white;
+    background-color: #F16001;
+    border: 2px solid #F16001;
+}
+.active-hired:hover
+{
+    color: white;
+}
+
+.toast-info {
+background-color: green;
+}
+#toast-container > .toast-success {
+         opacity: 1 !important;
+}
+#toast-container > .toast-error {
+    opacity: 1 !important;
+}
+.web{
+    padding: 12.6px 16px;
+}
+.text_theme_color
+{
+    color:#4e6b90;
+}
+
+.profile_box
+{
+    /*height: 150px;*/
+    /*width: 150px;*/
+}
+.profile_box img
+{
+    border-radius: 50%;
+    width: 126px;
+    height: 126px;
+    margin-top: -20px;
+}
+.tutor_profile_section .stars_row
+{
+    margin-top:-30px;
+}
+
+.tutor_profile_section .tutor_name_main_col
+{
+ margin-left:-40px;
+}
+
+.tutor_profile_section .section_title
+{
+    font-size:22px;
+}
+
+.select2-container--default .select2-selection--single 
+{
+    height: 42px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered
+{
+    line-height: 42px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b
+{
+    margin-top:5px !important;
+}
+
+.tutor_filter button
+{
+    margin-top:26px;
+}
+
+.tutor_profile_section .reviews-comment {
+    padding-top: 15px;
+}
+.tutor_profile_section .reviews-comment .reviews-comments-items .single-reviews-comment
+{
+    display: flex;
+    padding: 35px 0;
+}
+
+.tutor_profile_section .reviews-comment .reviews-comments-items .single-reviews-comment .comment-content {
+    /*padding-left: 30px;*/
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.tutor_profile_section .reviews-comment .reviews-comments-items .single-reviews-comment .comment-content .rating-name {
+    /*display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;*/
+    display: block;
+}
+.tutor_profile_section .reviews-comment .reviews-comments-items .single-reviews-comment .comment-content .rating-name .author-rating {
+    /*display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;*/
+    display: flex;
+    margin-right: 10px;
+}
+.tutor_profile_section ol,
+.tutor_profile_section ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.grey_star
+{
+    color:#4e6b7b !important;
+}  
+
+.btn_primary
+{
+    height: 20px !important;
+    line-height: 0 !important;
+}
+
+.multiple_options_field
+{
+    margin-top:-25px !important;
+}
